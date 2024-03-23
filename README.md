@@ -30,13 +30,16 @@ The package has 3 Functionalities
 
 <img src="www/UsersD.png" align="center"/>
 <div align="center">User Statistics DataFrame in data/UsersDF.csv</div>
-
+&nbsp;
+&nbsp;
 <img src="www/TopicsD.png" align="center"/>
 <div align="center">Topics Statistics DataFrame in data/TopicsDF.csv</div>
-
+&nbsp;
+&nbsp;
 <img src="www/RepliesD.png" align="center"/>
 <div align="center">Replies/Comments Details DataFrame in data/RepliesDF.csv</div>
-
+&nbsp;
+&nbsp;
 <img src="www/LikesD.png" align="center"/>
 <div align="center">Likes on Comments/Replies Details DataFrame in data/LikesDF.csv</div>
 
@@ -55,7 +58,8 @@ Our `ArbGovernanceInsightToolkit` package contains a shiny app which analyzes an
 
 <img src="www/Dash1.png" align="center"/>
 <div align="center">Network showing users potentially colluding by liking Topics and Comments created by certain Users</div>
-
+&nbsp;
+&nbsp;
 <img src="www/Dash2.png" align="center"/>
 <div align="center">Network showing users potentially colluding by Posting Comments/Replies on Topics created by certain Users</div>
 
