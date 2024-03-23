@@ -81,6 +81,6 @@ ui <- fluidPage(theme = bs_theme(bootswatch = "sandstone"),
           downloadButton("downloadDataB", "Download"),
           withSpinner(dataTableOutput("BadgesDF"))
       )
-    ),
+    )
   )
 )

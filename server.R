@@ -7,11 +7,11 @@ library(readr)
 ########################################################################
 ## Load All data
 ########################################################################
-UserD <- read_csv("data/UsersDF.csv")
-TopicD <- read_csv("data/TopicsDF.csv")
-RepliesD <- read_csv("data/RepliesDF.csv")
-LikesD <- read_csv("data/LikesDF.csv")
-BadgesD <- read_csv("data/BadgesDF.csv")
+UserD <- read_csv("data/UsersDF.csv",show_col_types = FALSE)
+TopicD <- read_csv("data/TopicsDF.csv",show_col_types = FALSE)
+RepliesD <- read_csv("data/RepliesDF.csv",show_col_types = FALSE)
+LikesD <- read_csv("data/LikesDF.csv",show_col_types = FALSE)
+BadgesD <- read_csv("data/BadgesDF.csv",show_col_types = FALSE)
 
 ## Like Matrix
 all_usersL <- unique(c(LikesD$likeBy,LikesD$likePostUser))
@@ -184,5 +184,4 @@ function(input, output, session) {
 	    }
   	)
   	output$BadgesDF <- renderDataTable({datatable(BadgesD,escape = FALSE,rownames=FALSE,options = list(paging = TRUE,bInfo = FALSE,ordering=TRUE,searching=TRUE,autoWidth = TRUE,bLengthChange = FALSE,pageLength = 20))})
-
 }
