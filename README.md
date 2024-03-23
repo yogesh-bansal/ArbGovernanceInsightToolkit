@@ -18,6 +18,11 @@ The package has 3 Functionalities
 
 ## Pull Data Functionality
 
+### Description
+
+Our `ArbGovernanceInsightToolkit` repo contains 2 R scripts which automatically pulls and parse the data in a nice structured CSV files for further analysis.
+
+
 ### Walkthrough
 
 #### 1. Scrape all the governance forum data.
@@ -48,7 +53,7 @@ The package has 3 Functionalities
 
 ### Description
 
-Our `ArbGovernanceInsightToolkit` package contains a shiny app which analyzes and visualizes data to uncover patterns of support and potential centralization of power within governance forums.
+Our `ArbGovernanceInsightToolkit` repo contains a shiny app which analyzes and visualizes data to uncover patterns of support and potential centralization of power within governance forums.
 
 ### Walkthrough
 
@@ -68,7 +73,7 @@ Our `ArbGovernanceInsightToolkit` package contains a shiny app which analyzes an
 
 ### Description
 
-Our `ArbGovernanceInsightToolkit` package contains a shiny app which have the option to look into the governance raw data like sorting searching and exporting it as well.
+Our `ArbGovernanceInsightToolkit` repo contains a shiny app which have the option to look into the governance raw data like sorting searching and exporting it as well.
 
 <img src="www/ExportU.png" align="center"/>
 <div align="center">Users Data</div>
