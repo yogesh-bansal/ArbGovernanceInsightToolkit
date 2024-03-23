@@ -47,5 +47,40 @@ ui <- fluidPage(theme = bs_theme(bootswatch = "sandstone"),
         )
       )
     ),
+    tabPanel("User Data",
+      br(),
+      fluidPage(
+          downloadButton("downloadDataU", "Download"),
+          withSpinner(dataTableOutput("UsersDF"))
+      )
+    ),
+    tabPanel("Topic Data",
+      br(),
+      fluidPage(
+          downloadButton("downloadDataT", "Download"),
+          withSpinner(dataTableOutput("TopicsDF"))
+      )
+    ),
+    tabPanel("Replies Data",
+      br(),
+      fluidPage(
+          downloadButton("downloadDataR", "Download"),
+          withSpinner(dataTableOutput("RepliesDF"))
+      )
+    ),
+    tabPanel("Likes Data",
+      br(),
+      fluidPage(
+          downloadButton("downloadDataL", "Download"),
+          withSpinner(dataTableOutput("LikesDF"))
+      )
+    ),
+    tabPanel("Badges Data",
+      br(),
+      fluidPage(
+          downloadButton("downloadDataB", "Download"),
+          withSpinner(dataTableOutput("BadgesDF"))
+      )
+    ),
   )
 )

@@ -130,4 +130,59 @@ function(input, output, session) {
 
                             })
 
+    ## User Data
+    output$downloadDataU <- downloadHandler(
+	    filename = function() {
+	      "UsersDF.csv"
+	    },
+	    content = function(file) {
+	      write_csv(UserD, file)
+	    }
+  	)
+    output$UsersDF <- renderDataTable({datatable(UserD,escape = FALSE,rownames=FALSE,options = list(paging = TRUE,bInfo = FALSE,ordering=TRUE,searching=TRUE,autoWidth = TRUE,bLengthChange = FALSE,pageLength = 20))})
+
+    ## Topic Data
+    output$downloadDataT <- downloadHandler(
+	    filename = function() {
+	      "TopicsDF.csv"
+	    },
+	    content = function(file) {
+	      write_csv(TopicD, file)
+	    }
+  	)
+  	output$TopicsDF <- renderDataTable({datatable(TopicD,escape = FALSE,rownames=FALSE,options = list(paging = TRUE,bInfo = FALSE,ordering=TRUE,searching=TRUE,autoWidth = TRUE,bLengthChange = FALSE,pageLength = 20))})
+
+  	## Replies Data
+    output$downloadDataR <- downloadHandler(
+	    filename = function() {
+	      "RepliesDF.csv"
+	    },
+	    content = function(file) {
+	      write_csv(RepliesD, file)
+	    }
+  	)
+  	output$RepliesDF <- renderDataTable({datatable(RepliesD,escape = FALSE,rownames=FALSE,options = list(paging = TRUE,bInfo = FALSE,ordering=TRUE,searching=TRUE,autoWidth = TRUE,bLengthChange = FALSE,pageLength = 20))})
+
+  	## Likes Data
+    output$downloadDataL <- downloadHandler(
+	    filename = function() {
+	      "LikesDF.csv"
+	    },
+	    content = function(file) {
+	      write_csv(LikesD, file)
+	    }
+  	)
+  	output$LikesDF <- renderDataTable({datatable(LikesD,escape = FALSE,rownames=FALSE,options = list(paging = TRUE,bInfo = FALSE,ordering=TRUE,searching=TRUE,autoWidth = TRUE,bLengthChange = FALSE,pageLength = 20))})
+
+  	## Badges Data
+    output$downloadDataB <- downloadHandler(
+	    filename = function() {
+	      "BadgesDF.csv"
+	    },
+	    content = function(file) {
+	      write_csv(BadgesD, file)
+	    }
+  	)
+  	output$BadgesDF <- renderDataTable({datatable(BadgesD,escape = FALSE,rownames=FALSE,options = list(paging = TRUE,bInfo = FALSE,ordering=TRUE,searching=TRUE,autoWidth = TRUE,bLengthChange = FALSE,pageLength = 20))})
+
 }
