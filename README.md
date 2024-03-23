@@ -3,7 +3,7 @@ Governance Forum Analyzer: A comprehensive toolkit for scraping, extracting, ana
 
 <img src="www/DemoGif.gif" align="center"/>
 
-## [App Walkthrough on YouTube](https://www.youtube.com/watch?v=H) <<< Click Here
+## [App Demo on YouTube](https://www.youtube.com/watch?v=H) <<< Click Here
 
 ## [App deployed on a tiny droplet](http://143.198:4539) <<< Click Here
 
@@ -68,12 +68,15 @@ Our `ArbGovernanceInsightToolkit` package contains a shiny app which have the op
 
 <img src="www/ExportU.png" align="center"/>
 <div align="center">Users Data</div>
-  
+&nbsp;
+&nbsp;
 <img src="www/ExportT.png" align="center"/>
 <div align="center">Topics Data</div>
-  
+&nbsp;
+&nbsp;
 <img src="www/ExportR.png" align="center"/>
 <div align="center">Replies Data</div>
-  
+&nbsp;
+&nbsp;
 <img src="www/ExportL.png" align="center"/>
 <div align="center">Likes Data</div>
