@@ -68,12 +68,12 @@ Our `ArbGovernanceInsightToolkit` package contains a shiny app which have the op
 
 <img src="www/ExportU.png" align="center"/>
 <div align="center">Users Data</div>
-
+  
 <img src="www/ExportT.png" align="center"/>
 <div align="center">Topics Data</div>
-
+  
 <img src="www/ExportR.png" align="center"/>
 <div align="center">Replies Data</div>
-
+  
 <img src="www/ExportL.png" align="center"/>
 <div align="center">Likes Data</div>
