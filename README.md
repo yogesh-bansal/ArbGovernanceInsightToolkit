@@ -3,9 +3,9 @@ Governance Forum Analyzer: A comprehensive toolkit for scraping, extracting, ana
 
 <img src="www/DemoGif.gif" align="center"/>
 
-## [App Demo on YouTube](https://www.youtube.com/watch?v=H) <<< Click Here
+## [App Demo on YouTube](https://www.youtube.com/watch?v=HpcOKZYdo9o) <<< Click Here
 
-## [App deployed on a tiny droplet](http://143.198:4539) <<< Click Here
+## [App deployed on a tiny droplet](http://143.198.234.235:4567) <<< Click Here
 
 <hr>
 
