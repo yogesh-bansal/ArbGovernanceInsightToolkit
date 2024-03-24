@@ -26,7 +26,7 @@ ui <- fluidPage(theme = bs_theme(bootswatch = "sandstone"),
           sliderInput("like_cutoff", label = "Posts Liked", min = 5, max = 50, value = 15,step=5),
         ),
         mainPanel(width=9,
-          # column(width = 12,p("Node Size is based on Number of Replies by the User while Node color shows the number of Topics created by the user."),align="center"),
+          column(width = 12,h5("Network showing users potentially colluding by Posting Comments/Replies on Topics created by certain Users."),align="center"),
           withSpinner(forceNetworkOutput("lcoll_network",height="700px"))
         )
       )
@@ -41,8 +41,7 @@ ui <- fluidPage(theme = bs_theme(bootswatch = "sandstone"),
           sliderInput("reply_cutoff", label = "Replies Posted on Topic", min = 1, max = 10, value = 5,step=1),
         ),
         mainPanel(width=9,
-          # column(width = 10,p("Node Size is based on Number of Replies by the User while Node color shows the number of Topics created by the user."),align="center"),
-          # column(width = 10,p("Link Arrow shows which user has posted at least selected number of replies on a user's created topics."),align="center"),
+          column(width = 12,h5("Network showing users potentially colluding by Posting Comments/Replies on Topics created by certain Users."),align="center"),
           withSpinner(forceNetworkOutput("rcoll_network",height="700px"))
         )
       )
